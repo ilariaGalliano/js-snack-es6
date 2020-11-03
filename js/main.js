@@ -104,7 +104,7 @@ $(document).ready(function () {
 
   console.table(bicycles, bicycle );
 
-    }); // <-- end doc ready
+}); // <-- end doc ready
 
   // Funzione per generare una lettera casuale
   function generatePosition(){
