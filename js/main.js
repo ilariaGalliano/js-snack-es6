@@ -108,8 +108,8 @@ $(document).ready(function () {
 
   // Funzione per generare una lettera casuale
   function generatePosition(){
-    var letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    var letter = letters[getRandomInt(0, letters.length -1)];
+    let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let letter = letters[getRandomInt(0, letters.length -1)];
 
     return letter;
   }
